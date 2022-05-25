@@ -1,0 +1,3573 @@
+--08039303-A--
+[10/Dec/2018:08:32:18 +0700] XA3CIn8AAQEAAAmT8twAAAAC 192.168.56.1 54053 192.168.56.101 80
+--08039303-B--
+GET /DVWA/vulnerabilities/fi/?page=file3.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=include.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--08039303-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1436
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--08039303-E--
+
+--08039303-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544405538823009 84104 (- - -)
+Stopwatch2: 1544405538823009 84104; combined=2285, p1=363, p2=1662, p3=46, p4=132, p5=82, sr=13, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--08039303-Z--
+
+--62654720-A--
+[10/Dec/2018:08:33:36 +0700] XA3CcH8AAQEAAAplDqoAAAAI 192.168.56.1 54058 192.168.56.101 80
+--62654720-B--
+GET /DVWA/vulnerabilities/fi/?page=include.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=file3.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--62654720-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1270
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--62654720-E--
+
+--62654720-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544405616320075 89267 (- - -)
+Stopwatch2: 1544405616320075 89267; combined=11928, p1=795, p2=5092, p3=1329, p4=2051, p5=2658, sr=42, sw=3, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--62654720-Z--
+
+--01a90c05-A--
+[10/Dec/2018:08:35:22 +0700] XA3C2n8AAQEAAAmSjWoAAAAB 192.168.56.1 54063 192.168.56.101 80
+--01a90c05-B--
+GET /DVWA/vulnerabilities/upload/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=include.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--01a90c05-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1455
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--01a90c05-E--
+
+--01a90c05-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544405722227753 88281 (- - -)
+Stopwatch2: 1544405722227753 88281; combined=3778, p1=914, p2=2133, p3=142, p4=326, p5=261, sr=14, sw=2, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--01a90c05-Z--
+
+--de00b53f-A--
+[10/Dec/2018:08:37:29 +0700] XA3DWH8AAQEAAAmVaKEAAAAE 192.168.56.1 54067 192.168.56.101 80
+--de00b53f-B--
+POST /DVWA/vulnerabilities/upload/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 846463
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryeAxg8tWccEd9Dlmw
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/upload/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--de00b53f-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1501
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--de00b53f-E--
+
+--de00b53f-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544405848855190 151025 (- - -)
+Stopwatch2: 1544405848855190 151025; combined=5434, p1=2644, p2=2374, p3=72, p4=211, p5=132, sr=28, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--de00b53f-Z--
+
+--c472a25b-A--
+[10/Dec/2018:08:39:56 +0700] XA3D7H8AAQEAAApjfTQAAAAG 192.168.56.1 54073 192.168.56.101 80
+--c472a25b-B--
+GET /DVWA/vulnerabilities/captcha/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/upload/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--c472a25b-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1560
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--c472a25b-E--
+
+--c472a25b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544405996295971 177570 (- - -)
+Stopwatch2: 1544405996295971 177570; combined=2214, p1=464, p2=1416, p3=64, p4=136, p5=133, sr=23, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--c472a25b-Z--
+
+--4820b86f-A--
+[10/Dec/2018:08:41:32 +0700] XA3ES38AAQEAAAmT8t0AAAAC 192.168.56.1 54079 192.168.56.101 80
+--4820b86f-B--
+POST /DVWA/vulnerabilities/captcha/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 133
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/captcha/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4820b86f-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1596
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--4820b86f-E--
+
+--4820b86f-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Error: [file "/build/php7.0-prjzrp/php7.0-7.0.32/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-prjzrp/php7.0-7.0.32/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Error: [file "/build/php7.0-prjzrp/php7.0-7.0.32/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406091907083 118662 (- - -)
+Stopwatch2: 1544406091907083 118662; combined=5533, p1=550, p2=4514, p3=74, p4=305, p5=89, sr=12, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4820b86f-Z--
+
+--3c554122-A--
+[10/Dec/2018:08:43:11 +0700] XA3Er38AAQEAAAph56EAAAAF 192.168.56.1 54085 192.168.56.101 80
+--3c554122-B--
+GET /DVWA/vulnerabilities/sqli/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/captcha/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--3c554122-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1481
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--3c554122-E--
+
+--3c554122-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406191258271 354720 (- - -)
+Stopwatch2: 1544406191258271 354720; combined=4396, p1=773, p2=3131, p3=118, p4=204, p5=169, sr=16, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--3c554122-Z--
+
+--ae2c9d46-A--
+[10/Dec/2018:08:44:11 +0700] XA3E638AAQEAAAmRTUoAAAAA 192.168.56.1 54093 192.168.56.101 80
+--ae2c9d46-B--
+GET /DVWA/vulnerabilities/sqli/?id=&Submit=Submit&user_token=15e961ba2f18c65ab18fda6d4a3b475d HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/sqli/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--ae2c9d46-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1480
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--ae2c9d46-E--
+
+--ae2c9d46-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406251411409 59216 (- - -)
+Stopwatch2: 1544406251411409 59216; combined=3930, p1=346, p2=3310, p3=47, p4=143, p5=84, sr=11, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--ae2c9d46-Z--
+
+--2dcd8328-A--
+[10/Dec/2018:08:44:54 +0700] XA3FFX8AAQEAAAmVaKIAAAAE 192.168.56.1 54101 192.168.56.101 80
+--2dcd8328-B--
+GET /DVWA/vulnerabilities/sqli_blind/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/sqli/?id=&Submit=Submit&user_token=15e961ba2f18c65ab18fda6d4a3b475d
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--2dcd8328-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1482
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--2dcd8328-E--
+
+--2dcd8328-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406293943327 116812 (- - -)
+Stopwatch2: 1544406293943327 116812; combined=1990, p1=299, p2=1437, p3=70, p4=101, p5=82, sr=12, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--2dcd8328-Z--
+
+--28f5a857-A--
+[10/Dec/2018:08:45:53 +0700] XA3FUX8AAQEAAApjfTUAAAAG 192.168.56.1 54128 192.168.56.101 80
+--28f5a857-B--
+GET /DVWA/vulnerabilities/sqli_blind/?id=&Submit=Submit&user_token=5804fef3076e28bbd184cc927b9d9270 HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/sqli_blind/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--28f5a857-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1484
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--28f5a857-E--
+
+--28f5a857-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406353241607 108446 (- - -)
+Stopwatch2: 1544406353241607 108446; combined=5577, p1=546, p2=4756, p3=53, p4=103, p5=119, sr=16, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--28f5a857-Z--
+
+--75ffba17-A--
+[10/Dec/2018:08:46:39 +0700] XA3Ff38AAQEAAAmT8t4AAAAC 192.168.56.1 54139 192.168.56.101 80
+--75ffba17-B--
+GET /DVWA/vulnerabilities/weak_id/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/sqli_blind/?id=&Submit=Submit&user_token=5804fef3076e28bbd184cc927b9d9270
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--75ffba17-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1186
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--75ffba17-E--
+
+--75ffba17-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406399221726 127826 (- - -)
+Stopwatch2: 1544406399221726 127826; combined=6544, p1=689, p2=5550, p3=60, p4=125, p5=120, sr=21, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--75ffba17-Z--
+
+--c68ff068-A--
+[10/Dec/2018:08:47:58 +0700] XA3Fzn8AAQEAAAmSjWsAAAAB 192.168.56.1 54142 192.168.56.101 80
+--c68ff068-B--
+POST /DVWA/vulnerabilities/weak_id/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 0
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/weak_id/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--c68ff068-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: dvwaSession=17db8c288190a6be5edf023a8b57d093c453b44b; expires=Mon, 10-Dec-2018 02:47:58 GMT; Max-Age=3600; path=/vulnerabilities/weak_id/; domain=192.168.56.101; secure; HttpOnly
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1186
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--c68ff068-E--
+
+--c68ff068-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406478818367 52989 (- - -)
+Stopwatch2: 1544406478818367 52989; combined=3931, p1=735, p2=2929, p3=63, p4=110, p5=94, sr=19, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--c68ff068-Z--
+
+--aabcb015-A--
+[10/Dec/2018:08:48:40 +0700] XA3F@H8AAQEAAAmUEpsAAAAD 192.168.56.1 54143 192.168.56.101 80
+--aabcb015-B--
+GET /DVWA/vulnerabilities/xss_d/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/weak_id/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--aabcb015-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--aabcb015-E--
+
+--aabcb015-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406520251019 137994 (- - -)
+Stopwatch2: 1544406520251019 137994; combined=4944, p1=1563, p2=2869, p3=120, p4=186, p5=205, sr=391, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--aabcb015-Z--
+
+--36c5f974-A--
+[10/Dec/2018:08:49:52 +0700] XA3GQH8AAQEAAAmVaKMAAAAE 192.168.56.1 54148 192.168.56.101 80
+--36c5f974-B--
+GET /DVWA/vulnerabilities/xss_d/?default=English HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_d/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--36c5f974-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--36c5f974-E--
+
+--36c5f974-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406592798126 88446 (- - -)
+Stopwatch2: 1544406592798126 88446; combined=2419, p1=383, p2=1766, p3=69, p4=108, p5=92, sr=11, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--36c5f974-Z--
+
+--53d80903-A--
+[10/Dec/2018:08:50:54 +0700] XA3Gfn8AAQEAAApjfTYAAAAG 192.168.56.1 54149 192.168.56.101 80
+--53d80903-B--
+GET /DVWA/vulnerabilities/xss_d/?default=French HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_d/?default=English
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--53d80903-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--53d80903-E--
+
+--53d80903-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406654218299 48867 (- - -)
+Stopwatch2: 1544406654218299 48867; combined=2357, p1=326, p2=1580, p3=74, p4=278, p5=99, sr=10, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--53d80903-Z--
+
+--b80ac972-A--
+[10/Dec/2018:08:52:16 +0700] XA3G0H8AAQEAAAmT8t8AAAAC 192.168.56.1 54152 192.168.56.101 80
+--b80ac972-B--
+GET /DVWA/vulnerabilities/xss_d/?default=Spanish HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_d/?default=French
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--b80ac972-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--b80ac972-E--
+
+--b80ac972-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406736193091 40622 (- - -)
+Stopwatch2: 1544406736193091 40622; combined=3180, p1=344, p2=2601, p3=44, p4=100, p5=90, sr=12, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--b80ac972-Z--
+
+--d5223a2b-A--
+[10/Dec/2018:08:53:20 +0700] XA3HEH8AAQEAAAmRTUsAAAAA 192.168.56.1 54159 192.168.56.101 80
+--d5223a2b-B--
+GET /DVWA/vulnerabilities/xss_d/?default=German HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_d/?default=Spanish
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--d5223a2b-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1555
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--d5223a2b-E--
+
+--d5223a2b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406800520879 92664 (- - -)
+Stopwatch2: 1544406800520879 92664; combined=5115, p1=652, p2=4056, p3=204, p4=99, p5=104, sr=22, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--d5223a2b-Z--
+
+--e8347e0e-A--
+[10/Dec/2018:08:53:57 +0700] XA3HNX8AAQEAAApkva8AAAAH 192.168.56.1 54161 192.168.56.101 80
+--e8347e0e-B--
+GET /DVWA/vulnerabilities/xss_r/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_d/?default=German
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--e8347e0e-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1441
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--e8347e0e-E--
+
+--e8347e0e-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406837667116 91024 (- - -)
+Stopwatch2: 1544406837667116 91024; combined=2337, p1=462, p2=1558, p3=50, p4=177, p5=89, sr=35, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--e8347e0e-Z--
+
+--dbb2df2a-A--
+[10/Dec/2018:08:54:52 +0700] XA3HbH8AAQEAAAmVaKQAAAAE 192.168.56.1 54165 192.168.56.101 80
+--dbb2df2a-B--
+GET /DVWA/vulnerabilities/xss_r/?name=Hahahahahaaha&user_token=f456f9753dafd39c1397d99972fe5516 HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_r/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--dbb2df2a-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1456
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--dbb2df2a-E--
+
+--dbb2df2a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406892369432 236402 (- - -)
+Stopwatch2: 1544406892369432 236402; combined=8049, p1=1854, p2=5406, p3=154, p4=394, p5=240, sr=154, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--dbb2df2a-Z--
+
+--3c49b02a-A--
+[10/Dec/2018:08:55:38 +0700] XA3Hmn8AAQEAAApjfTcAAAAG 192.168.56.1 54167 192.168.56.101 80
+--3c49b02a-B--
+GET /DVWA/vulnerabilities/xss_s/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_r/?name=Hahahahahaaha&user_token=f456f9753dafd39c1397d99972fe5516
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--3c49b02a-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1688
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--3c49b02a-E--
+
+--3c49b02a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544406938753135 139499 (- - -)
+Stopwatch2: 1544406938753135 139499; combined=4791, p1=2500, p2=1923, p3=75, p4=159, p5=134, sr=45, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--3c49b02a-Z--
+
+--7d05e521-A--
+[10/Dec/2018:09:02:33 +0700] XA3JOX8AAQEAAAmT8uAAAAAC 192.168.56.1 54187 192.168.56.101 80
+--7d05e521-B--
+POST /DVWA/vulnerabilities/xss_s/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 102
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_s/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--7d05e521-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1702
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--7d05e521-E--
+
+--7d05e521-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544407353003778 259064 (- - -)
+Stopwatch2: 1544407353003778 259064; combined=2850, p1=794, p2=1708, p3=60, p4=161, p5=126, sr=17, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--7d05e521-Z--
+
+--14616f00-A--
+[10/Dec/2018:09:03:45 +0700] XA3JgH8AAQEAAAmRTUwAAAAA 192.168.56.1 54193 192.168.56.101 80
+--14616f00-B--
+POST /DVWA/vulnerabilities/xss_s/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 104
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_s/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--14616f00-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1650
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--14616f00-E--
+
+--14616f00-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544407424693863 331426 (- - -)
+Stopwatch2: 1544407424693863 331426; combined=1985, p1=311, p2=1219, p3=114, p4=191, p5=149, sr=9, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--14616f00-Z--
+
+--4703c916-A--
+[10/Dec/2018:09:04:52 +0700] XA3JxH8AAQEAAAplDqsAAAAI 192.168.56.1 54196 192.168.56.101 80
+--4703c916-B--
+GET /DVWA/vulnerabilities/csp/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/xss_s/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4703c916-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Content-Security-Policy: script-src 'self';
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1580
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--4703c916-E--
+
+--4703c916-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544407492672164 111339 (- - -)
+Stopwatch2: 1544407492672164 111339; combined=11276, p1=1134, p2=9877, p3=70, p4=107, p5=87, sr=25, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4703c916-Z--
+
+--4703c916-A--
+[10/Dec/2018:09:04:52 +0700] XA3JxH8AAQEAAAplDqwAAAAI 192.168.56.1 54196 192.168.56.101 80
+--4703c916-B--
+GET /DVWA/vulnerabilities/csp/source/impossible.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/vulnerabilities/csp/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4703c916-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "1a5-57bc5760290b8-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 267
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+--4703c916-E--
+
+--4703c916-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544407492861253 3055 (- - -)
+Stopwatch2: 1544407492861253 3055; combined=1937, p1=524, p2=1016, p3=44, p4=102, p5=251, sr=16, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4703c916-Z--
+
+--9455b006-A--
+[10/Dec/2018:09:05:28 +0700] XA3J6H8AAQEAAAmVaKUAAAAE 192.168.56.1 54198 192.168.56.101 80
+--9455b006-B--
+GET /DVWA/vulnerabilities/csp/source/jsonp_impossible.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/vulnerabilities/csp/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--9455b006-F--
+HTTP/1.1 200 OK
+Content-Length: 26
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/json; charset=UTF-8
+
+--9455b006-E--
+
+--9455b006-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544407528505638 84049 (- - -)
+Stopwatch2: 1544407528505638 84049; combined=6295, p1=944, p2=3839, p3=292, p4=637, p5=581, sr=24, sw=2, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--9455b006-Z--
+
+--bc7ad535-A--
+[10/Dec/2018:09:06:04 +0700] XA3KDH8AAQEAAApjfTgAAAAG 192.168.56.1 54199 192.168.56.101 80
+--bc7ad535-B--
+GET /DVWA/vulnerabilities/javascript/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/csp/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--bc7ad535-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1392
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--bc7ad535-E--
+
+--bc7ad535-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544407564414784 120418 (- - -)
+Stopwatch2: 1544407564414784 120418; combined=2677, p1=443, p2=1654, p3=96, p4=249, p5=234, sr=14, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--bc7ad535-Z--
+
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--a1440d3f-Z--
+
+--4cb5a559-A--
+[10/Dec/2018:10:45:20 +0700] XA3hUH8AAQEAAAph56IAAAAF 192.168.56.1 57955 192.168.56.101 80
+--4cb5a559-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4cb5a559-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2104
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--4cb5a559-E--
+
+--4cb5a559-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413520107510 9784 (- - -)
+Stopwatch2: 1544413520107510 9784; combined=6863, p1=463, p2=5930, p3=63, p4=146, p5=261, sr=45, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4cb5a559-Z--
+
+--4cb5a559-A--
+[10/Dec/2018:10:45:20 +0700] XA3hUH8AAQEAAAplDq0AAAAI 192.168.56.1 57956 192.168.56.101 80
+--4cb5a559-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4cb5a559-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4cb5a559-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413520187183 7241 (- - -)
+Stopwatch2: 1544413520187183 7241; combined=6034, p1=1023, p2=1620, p3=780, p4=170, p5=2440, sr=19, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4cb5a559-Z--
+
+--4cb5a559-A--
+[10/Dec/2018:10:45:20 +0700] XA3hUH8AAQEAAAph56MAAAAF 192.168.56.1 57955 192.168.56.101 80
+--4cb5a559-B--
+GET /DVWA/dvwa/images/lock.png HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4cb5a559-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "2f9-57bc57601e4bf"
+Accept-Ranges: bytes
+Content-Length: 761
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+--4cb5a559-E--
+
+--4cb5a559-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413520185034 29429 (- - -)
+Stopwatch2: 1544413520185034 29429; combined=8723, p1=478, p2=7956, p3=40, p4=109, p5=139, sr=15, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4cb5a559-Z--
+
+--4cb5a559-A--
+[10/Dec/2018:10:45:20 +0700] XA3hUH8AAQEAAAph56QAAAAF 192.168.56.1 57955 192.168.56.101 80
+--4cb5a559-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4cb5a559-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4cb5a559-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413520369178 3393 (- - -)
+Stopwatch2: 1544413520369178 3393; combined=2133, p1=489, p2=1316, p3=61, p4=135, p5=132, sr=17, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4cb5a559-Z--
+
+--191c7543-A--
+[10/Dec/2018:10:46:54 +0700] XA3hrn8AAQEAAAmVaKYAAAAE 192.168.56.1 57960 192.168.56.101 80
+--191c7543-B--
+POST /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 84
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--191c7543-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2; path=/; HttpOnly
+Set-Cookie: security=impossible; HttpOnly
+Location: /DVWA/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--191c7543-E--
+
+--191c7543-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413614437490 5310 (- - -)
+Stopwatch2: 1544413614437490 5310; combined=3543, p1=693, p2=2565, p3=46, p4=142, p5=96, sr=20, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--191c7543-Z--
+
+--191c7543-A--
+[10/Dec/2018:10:46:54 +0700] XA3hrn8AAQEAAAmVaKcAAAAE 192.168.56.1 57960 192.168.56.101 80
+--191c7543-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--191c7543-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2122
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--191c7543-E--
+
+--191c7543-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413614505736 3458 (- - -)
+Stopwatch2: 1544413614505736 3458; combined=1683, p1=284, p2=1131, p3=62, p4=114, p5=91, sr=9, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--191c7543-Z--
+
+--191c7543-A--
+[10/Dec/2018:10:46:54 +0700] XA3hrn8AAQEAAAmVaKgAAAAE 192.168.56.1 57960 192.168.56.101 80
+--191c7543-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--191c7543-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--191c7543-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413614544856 3790 (- - -)
+Stopwatch2: 1544413614544856 3790; combined=2080, p1=515, p2=1288, p3=31, p4=84, p5=162, sr=14, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--191c7543-Z--
+
+--191c7543-A--
+[10/Dec/2018:10:46:54 +0700] XA3hrn8AAQEAAAmVaKkAAAAE 192.168.56.1 57960 192.168.56.101 80
+--191c7543-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--191c7543-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--191c7543-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413614587394 7161 (- - -)
+Stopwatch2: 1544413614587394 7161; combined=2788, p1=626, p2=1874, p3=43, p4=95, p5=149, sr=64, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--191c7543-Z--
+
+--8d3a532b-A--
+[10/Dec/2018:10:47:25 +0700] XA3hzX8AAQEAAAmSjWwAAAAB 192.168.56.1 57962 192.168.56.101 80
+--8d3a532b-B--
+POST /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 78
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--8d3a532b-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2; path=/
+Set-Cookie: security=high
+Location: /DVWA/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--8d3a532b-E--
+
+--8d3a532b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413645769070 5919 (- - -)
+Stopwatch2: 1544413645769070 5919; combined=3670, p1=824, p2=2511, p3=54, p4=162, p5=118, sr=42, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--8d3a532b-Z--
+
+--8d3a532b-A--
+[10/Dec/2018:10:47:25 +0700] XA3hzX8AAQEAAAmSjW0AAAAB 192.168.56.1 57962 192.168.56.101 80
+--8d3a532b-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=high; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--8d3a532b-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2120
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--8d3a532b-E--
+
+--8d3a532b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413645791367 4626 (- - -)
+Stopwatch2: 1544413645791367 4626; combined=2648, p1=532, p2=1701, p3=52, p4=263, p5=99, sr=14, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--8d3a532b-Z--
+
+--8d3a532b-A--
+[10/Dec/2018:10:47:25 +0700] XA3hzX8AAQEAAAmSjW4AAAAB 192.168.56.1 57962 192.168.56.101 80
+--8d3a532b-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--8d3a532b-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--8d3a532b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413645819751 3555 (- - -)
+Stopwatch2: 1544413645819751 3555; combined=2446, p1=455, p2=1517, p3=129, p4=198, p5=146, sr=17, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--8d3a532b-Z--
+
+--8d3a532b-A--
+[10/Dec/2018:10:47:25 +0700] XA3hzX8AAQEAAAmSjW8AAAAB 192.168.56.1 57962 192.168.56.101 80
+--8d3a532b-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--8d3a532b-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--8d3a532b-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413645883204 4191 (- - -)
+Stopwatch2: 1544413645883204 4191; combined=2749, p1=1146, p2=1033, p3=64, p4=268, p5=237, sr=22, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--8d3a532b-Z--
+
+--6968dc09-A--
+[10/Dec/2018:10:48:14 +0700] XA3h-n8AAQEAAAmUEp0AAAAD 192.168.56.1 57964 192.168.56.101 80
+--6968dc09-B--
+POST /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 80
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=high; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--6968dc09-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2; path=/
+Set-Cookie: security=medium
+Location: /DVWA/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--6968dc09-E--
+
+--6968dc09-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413694554548 10670 (- - -)
+Stopwatch2: 1544413694554548 10670; combined=7961, p1=744, p2=6301, p3=189, p4=195, p5=531, sr=23, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--6968dc09-Z--
+
+--6968dc09-A--
+[10/Dec/2018:10:48:14 +0700] XA3h-n8AAQEAAAmUEp4AAAAD 192.168.56.1 57964 192.168.56.101 80
+--6968dc09-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=medium; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--6968dc09-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2121
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--6968dc09-E--
+
+--6968dc09-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413694573134 6567 (- - -)
+Stopwatch2: 1544413694573134 6567; combined=4356, p1=489, p2=3518, p3=64, p4=171, p5=113, sr=17, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--6968dc09-Z--
+
+--6968dc09-A--
+[10/Dec/2018:10:48:14 +0700] XA3h-n8AAQEAAAmUEp8AAAAD 192.168.56.1 57964 192.168.56.101 80
+--6968dc09-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--6968dc09-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--6968dc09-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413694606889 4347 (- - -)
+Stopwatch2: 1544413694606889 4347; combined=2640, p1=411, p2=1878, p3=54, p4=177, p5=120, sr=12, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--6968dc09-Z--
+
+--0926091d-A--
+[10/Dec/2018:10:49:04 +0700] XA3iMH8AAQEAAAmRTVAAAAAA 192.168.56.1 57968 192.168.56.101 80
+--0926091d-B--
+POST /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 77
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=medium; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--0926091d-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2; path=/
+Set-Cookie: security=low
+Location: /DVWA/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--0926091d-E--
+
+--0926091d-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413744944888 4587 (- - -)
+Stopwatch2: 1544413744944888 4587; combined=2714, p1=385, p2=2012, p3=53, p4=139, p5=124, sr=14, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--0926091d-Z--
+
+--0926091d-A--
+[10/Dec/2018:10:49:04 +0700] XA3iMH8AAQEAAAmRTVEAAAAA 192.168.56.1 57968 192.168.56.101 80
+--0926091d-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--0926091d-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2119
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--0926091d-E--
+
+--0926091d-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544413744961297 4656 (- - -)
+Stopwatch2: 1544413744961297 4656; combined=2203, p1=368, p2=1524, p3=56, p4=131, p5=123, sr=14, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--0926091d-Z--
+
+--0926091d-A--
+[10/Dec/2018:10:49:04 +0700] XA3iMH8AAQEAAAmRTVIAAAAA 192.168.56.1 57968 192.168.56.101 80
+--0926091d-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--0926091d-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--0926091d-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544413744996004 2541 (- - -)
+Stopwatch2: 1544413744996004 2541; combined=1668, p1=280, p2=958, p3=221, p4=108, p5=101, sr=9, sw=0, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--0926091d-Z--
+
+--e3d8fb00-A--
+[10/Dec/2018:10:57:04 +0700] XA3kEH8AAQEAAAph56UAAAAF 192.168.56.1 57992 192.168.56.101 80
+--e3d8fb00-B--
+GET /DVWA/security.php?phpids=on HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--e3d8fb00-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: /DVWA/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--e3d8fb00-E--
+
+--e3d8fb00-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414224921741 7413 (- - -)
+Stopwatch2: 1544414224921741 7413; combined=5147, p1=1111, p2=3264, p3=77, p4=523, p5=172, sr=27, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--e3d8fb00-Z--
+
+--7ca75e76-A--
+[10/Dec/2018:10:57:05 +0700] XA3kEH8AAQEAAAph56YAAAAF 192.168.56.1 57992 192.168.56.101 80
+--7ca75e76-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--7ca75e76-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2141
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--7ca75e76-E--
+
+--7ca75e76-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414224943037 112934 (- - -)
+Stopwatch2: 1544414224943037 112934; combined=2865, p1=592, p2=1874, p3=73, p4=157, p5=169, sr=40, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--7ca75e76-Z--
+
+--7ca75e76-A--
+[10/Dec/2018:10:57:05 +0700] XA3kEX8AAQEAAAph56cAAAAF 192.168.56.1 57992 192.168.56.101 80
+--7ca75e76-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--7ca75e76-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--7ca75e76-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544414225091178 6016 (- - -)
+Stopwatch2: 1544414225091178 6016; combined=4673, p1=1550, p2=2502, p3=149, p4=225, p5=246, sr=26, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--7ca75e76-Z--
+
+--e4333376-A--
+[10/Dec/2018:10:58:14 +0700] XA3kVX8AAQEAAAmVaKoAAAAE 192.168.56.1 57996 192.168.56.101 80
+--e4333376-B--
+GET /DVWA/security.php?phpids=off HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--e4333376-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: /DVWA/security.php
+Content-Length: 39
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--e4333376-E--
+
+--e4333376-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414293997001 17735 (- - -)
+Stopwatch2: 1544414293997001 17735; combined=7979, p1=525, p2=7179, p3=41, p4=123, p5=111, sr=36, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--e4333376-Z--
+
+--e4333376-A--
+[10/Dec/2018:10:58:14 +0700] XA3kVn8AAQEAAAmVaKsAAAAE 192.168.56.1 57996 192.168.56.101 80
+--e4333376-B--
+GET /DVWA/security.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--e4333376-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2116
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--e4333376-E--
+
+--e4333376-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414294078726 3542 (- - -)
+Stopwatch2: 1544414294078726 3542; combined=1888, p1=450, p2=1216, p3=41, p4=96, p5=84, sr=15, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--e4333376-Z--
+
+--e4333376-A--
+[10/Dec/2018:10:58:14 +0700] XA3kVn8AAQEAAAmVaKwAAAAE 192.168.56.1 57996 192.168.56.101 80
+--e4333376-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--e4333376-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e4333376-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544414294107875 4106 (- - -)
+Stopwatch2: 1544414294107875 4106; combined=3166, p1=700, p2=2161, p3=51, p4=132, p5=121, sr=21, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--e4333376-Z--
+
+--08f1ca11-A--
+[10/Dec/2018:10:58:46 +0700] XA3kdn8AAQEAAAmT8uIAAAAC 192.168.56.1 57998 192.168.56.101 80
+--08f1ca11-B--
+GET /DVWA/security.php?test=%22%3E%3Cscript%3Eeval(window.name)%3C/script%3E HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--08f1ca11-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2102
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--08f1ca11-E--
+
+--08f1ca11-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Message: Warning. Pattern match "(?i)\\b(?:s(?:e(?:t(?:_(?:e(?:xception|rror)_handler|magic_quotes_runtime|include_path)|defaultstub)|ssion_s(?:et_save_handler|tart))|qlite_(?:(?:(?:unbuffered|single|array)_)?query|create_(?:aggregate|function)|p?open|exec)|tr(?:eam_(?:context_create| ..." at ARGS:test. [file "/usr/share/modsecurity-crs/rules/REQUEST-933-APPLICATION-ATTACK-PHP.conf"] [line "320"] [id "933160"] [msg "PHP Injection Attack: High-Risk PHP Function Call Found"] [data "Matched Data: eval(window.name) found within ARGS:test: \x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-php"] [tag "platform-multi"] [tag "attack-injection-php"] [tag "OWASP_CRS/WEB_ATTACK/PHP_INJECTION"] [tag "OWASP_TOP_10/A1"]
+Message: Warning. detected XSS using libinjection. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "60"] [id "941100"] [msg "XSS Attack Detected via libinjection"] [data "Matched Data: XSS data found within ARGS:test: \x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Pattern match "(?i)[<\xef\xbc\x9c]script[^>\xef\xbc\x9e]*[>\xef\xbc\x9e][\\s\\S]*?" at ARGS:test. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "92"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within ARGS:test: \x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Pattern match "(?i)<[^\\w<>]*(?:[^<>\"'\\s]*:)?[^\\w<>]*(?:\\W*?s\\W*?c\\W*?r\\W*?i\\W*?p\\W*?t|\\W*?f\\W*?o\\W*?r\\W*?m|\\W*?s\\W*?t\\W*?y\\W*?l\\W*?e|\\W*?s\\W*?v\\W*?g|\\W*?m\\W*?a\\W*?r\\W*?q\\W*?u\\W*?e\\W*?e|(?:\\W*?l\\W*?i\\W*?n\\W*?k|\\W*?o\\W*?b\\W*?j\\W*?e\ ..." at ARGS:test. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "217"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within ARGS:test: \x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Operator GE matched 5 at TX:anomaly_score. [file "/usr/share/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 23)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"]
+Message: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/usr/share/modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 23 - SQLI=0,XSS=15,RFI=0,LFI=0,RCE=0,PHPI=5,HTTP=0,SESS=0): NoScript XSS InjectionChecker: HTML Injection; individual paranoia level scores: 23, 0, 0, 0"] [tag "event-correlation"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414326549664 18084 (- - -)
+Stopwatch2: 1544414326549664 18084; combined=13144, p1=877, p2=10696, p3=204, p4=419, p5=947, sr=23, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--08f1ca11-Z--
+
+--08f1ca11-A--
+[10/Dec/2018:10:58:46 +0700] XA3kdn8AAQEAAAmT8uMAAAAC 192.168.56.1 57998 192.168.56.101 80
+--08f1ca11-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/security.php?test=%22%3E%3Cscript%3Eeval(window.name)%3C/script%3E
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--08f1ca11-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--08f1ca11-E--
+
+--08f1ca11-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Message: Warning. Pattern match "(?i)[<\xef\xbc\x9c]script[^>\xef\xbc\x9e]*[>\xef\xbc\x9e][\\s\\S]*?" at REQUEST_HEADERS:Referer. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "92"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within REQUEST_HEADERS:Referer: http://192.168.56.101/DVWA/security.php?test=\x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Pattern match "(?i)<[^\\w<>]*(?:[^<>\"'\\s]*:)?[^\\w<>]*(?:\\W*?s\\W*?c\\W*?r\\W*?i\\W*?p\\W*?t|\\W*?f\\W*?o\\W*?r\\W*?m|\\W*?s\\W*?t\\W*?y\\W*?l\\W*?e|\\W*?s\\W*?v\\W*?g|\\W*?m\\W*?a\\W*?r\\W*?q\\W*?u\\W*?e\\W*?e|(?:\\W*?l\\W*?i\\W*?n\\W*?k|\\W*?o\\W*?b\\W*?j\\W*?e\ ..." at REQUEST_HEADERS:Referer. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "217"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within REQUEST_HEADERS:Referer: http://192.168.56.101/DVWA/security.php?test=\x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Operator GE matched 5 at TX:anomaly_score. [file "/usr/share/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 13)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"]
+Message: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/usr/share/modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 13 - SQLI=0,XSS=10,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): NoScript XSS InjectionChecker: HTML Injection; individual paranoia level scores: 13, 0, 0, 0"] [tag "event-correlation"]
+Stopwatch: 1544414326627476 6035 (- - -)
+Stopwatch2: 1544414326627476 6035; combined=4983, p1=872, p2=3658, p3=52, p4=155, p5=246, sr=20, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--08f1ca11-Z--
+
+--4a98765d-A--
+[10/Dec/2018:10:59:54 +0700] XA3kun8AAQEAAAmUEqAAAAAD 192.168.56.1 58004 192.168.56.101 80
+--4a98765d-B--
+GET /DVWA/ids_log.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/security.php?test=%22%3E%3Cscript%3Eeval(window.name)%3C/script%3E
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4a98765d-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1232
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--4a98765d-E--
+
+--4a98765d-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Message: Warning. Pattern match "(?i)[<\xef\xbc\x9c]script[^>\xef\xbc\x9e]*[>\xef\xbc\x9e][\\s\\S]*?" at REQUEST_HEADERS:Referer. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "92"] [id "941110"] [msg "XSS Filter - Category 1: Script Tag Vector"] [data "Matched Data: <script> found within REQUEST_HEADERS:Referer: http://192.168.56.101/DVWA/security.php?test=\x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Pattern match "(?i)<[^\\w<>]*(?:[^<>\"'\\s]*:)?[^\\w<>]*(?:\\W*?s\\W*?c\\W*?r\\W*?i\\W*?p\\W*?t|\\W*?f\\W*?o\\W*?r\\W*?m|\\W*?s\\W*?t\\W*?y\\W*?l\\W*?e|\\W*?s\\W*?v\\W*?g|\\W*?m\\W*?a\\W*?r\\W*?q\\W*?u\\W*?e\\W*?e|(?:\\W*?l\\W*?i\\W*?n\\W*?k|\\W*?o\\W*?b\\W*?j\\W*?e\ ..." at REQUEST_HEADERS:Referer. [file "/usr/share/modsecurity-crs/rules/REQUEST-941-APPLICATION-ATTACK-XSS.conf"] [line "217"] [id "941160"] [msg "NoScript XSS InjectionChecker: HTML Injection"] [data "Matched Data: <script found within REQUEST_HEADERS:Referer: http://192.168.56.101/DVWA/security.php?test=\x22><script>eval(window.name)</script>"] [severity "CRITICAL"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-xss"] [tag "OWASP_CRS/WEB_ATTACK/XSS"] [tag "WASCTC/WASC-8"] [tag "WASCTC/WASC-22"] [tag "OWASP_TOP_10/A3"] [tag "OWASP_AppSensor/IE1"] [tag "CAPEC-242"]
+Message: Warning. Operator GE matched 5 at TX:anomaly_score. [file "/usr/share/modsecurity-crs/rules/REQUEST-949-BLOCKING-EVALUATION.conf"] [line "93"] [id "949110"] [msg "Inbound Anomaly Score Exceeded (Total Score: 13)"] [severity "CRITICAL"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-generic"]
+Message: Warning. Operator GE matched 5 at TX:inbound_anomaly_score. [file "/usr/share/modsecurity-crs/rules/RESPONSE-980-CORRELATION.conf"] [line "86"] [id "980130"] [msg "Inbound Anomaly Score Exceeded (Total Inbound Score: 13 - SQLI=0,XSS=10,RFI=0,LFI=0,RCE=0,PHPI=0,HTTP=0,SESS=0): NoScript XSS InjectionChecker: HTML Injection; individual paranoia level scores: 13, 0, 0, 0"] [tag "event-correlation"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414394839566 67659 (- - -)
+Stopwatch2: 1544414394839566 67659; combined=8017, p1=1093, p2=5912, p3=115, p4=265, p5=631, sr=26, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4a98765d-Z--
+
+--4a98765d-A--
+[10/Dec/2018:10:59:54 +0700] XA3kun8AAQEAAAmUEqEAAAAD 192.168.56.1 58004 192.168.56.101 80
+--4a98765d-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--4a98765d-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--4a98765d-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544414394949881 5618 (- - -)
+Stopwatch2: 1544414394949881 5618; combined=4816, p1=392, p2=4044, p3=61, p4=156, p5=162, sr=13, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--4a98765d-Z--
+
+--ef9c5b7f-A--
+[10/Dec/2018:11:01:00 +0700] XA3k-H8AAQEAAAplDq4AAAAI 192.168.56.1 58007 192.168.56.101 80
+--ef9c5b7f-B--
+GET /DVWA/ids_log.php?clear_log=Clear+Log HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--ef9c5b7f-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: /DVWA/ids_log.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--ef9c5b7f-E--
+
+--ef9c5b7f-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Error: [file "/build/php7.0-prjzrp/php7.0-7.0.32/sapi/apache2handler/sapi_apache2.c"] [line 326] [level 3] %s
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414460340281 3885 (- - -)
+Stopwatch2: 1544414460340281 3885; combined=2016, p1=292, p2=1455, p3=47, p4=121, p5=100, sr=11, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--ef9c5b7f-Z--
+
+--ef9c5b7f-A--
+[10/Dec/2018:11:01:00 +0700] XA3k-H8AAQEAAAplDq8AAAAI 192.168.56.1 58007 192.168.56.101 80
+--ef9c5b7f-B--
+GET /DVWA/ids_log.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--ef9c5b7f-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1067
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--ef9c5b7f-E--
+
+--ef9c5b7f-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414460361823 5887 (- - -)
+Stopwatch2: 1544414460361823 5887; combined=3999, p1=2497, p2=1097, p3=96, p4=185, p5=123, sr=131, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--ef9c5b7f-Z--
+
+--ef9c5b7f-A--
+[10/Dec/2018:11:01:00 +0700] XA3k-H8AAQEAAAplDrAAAAAI 192.168.56.1 58007 192.168.56.101 80
+--ef9c5b7f-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--ef9c5b7f-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--ef9c5b7f-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544414460397054 6631 (- - -)
+Stopwatch2: 1544414460397054 6631; combined=4863, p1=543, p2=1795, p3=92, p4=1489, p5=943, sr=14, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--ef9c5b7f-Z--
+
+--5bbce120-A--
+[10/Dec/2018:11:01:43 +0700] XA3lJ38AAQEAAAph56gAAAAF 192.168.56.1 58009 192.168.56.101 80
+--5bbce120-B--
+GET /DVWA/phpinfo.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--5bbce120-F--
+HTTP/1.1 200 OK
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 23815
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--5bbce120-E--
+
+--5bbce120-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414503324603 410350 (- - -)
+Stopwatch2: 1544414503324603 410350; combined=5824, p1=449, p2=5083, p3=52, p4=147, p5=92, sr=23, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--5bbce120-Z--
+
+--d2382430-A--
+[10/Dec/2018:11:06:58 +0700] XA3mYn8AAQEAAAmT8uQAAAAC 192.168.56.1 58027 192.168.56.101 80
+--d2382430-B--
+GET /DVWA/about.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/ids_log.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--d2382430-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2109
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--d2382430-E--
+
+--d2382430-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414818973136 22501 (- - -)
+Stopwatch2: 1544414818973136 22501; combined=4964, p1=585, p2=4086, p3=44, p4=163, p5=86, sr=13, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--d2382430-Z--
+
+--00128e64-A--
+[10/Dec/2018:11:06:59 +0700] XA3mY38AAQEAAAmT8uUAAAAC 192.168.56.1 58027 192.168.56.101 80
+--00128e64-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/about.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--00128e64-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--00128e64-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544414819023195 2825 (- - -)
+Stopwatch2: 1544414819023195 2825; combined=1976, p1=544, p2=1120, p3=41, p4=100, p5=170, sr=17, sw=1, l=0, gc=0
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--00128e64-Z--
+
+--6239cb6a-A--
+[10/Dec/2018:11:09:05 +0700] XA3m4X8AAQEAAAmRTVMAAAAA 192.168.56.1 58030 192.168.56.101 80
+--6239cb6a-B--
+GET /DVWA/logout.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/about.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--6239cb6a-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: login.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--6239cb6a-E--
+
+--6239cb6a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414945189989 66106 (- - -)
+Stopwatch2: 1544414945189989 66106; combined=8058, p1=496, p2=7239, p3=48, p4=131, p5=144, sr=17, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--6239cb6a-Z--
+
+--6239cb6a-A--
+[10/Dec/2018:11:09:05 +0700] XA3m4X8AAQEAAAmRTVQAAAAA 192.168.56.1 58030 192.168.56.101 80
+--6239cb6a-B--
+GET /DVWA/login.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/about.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--6239cb6a-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 724
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--6239cb6a-E--
+
+--6239cb6a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544414945266792 43453 (- - -)
+Stopwatch2: 1544414945266792 43453; combined=2598, p1=427, p2=1724, p3=86, p4=156, p5=203, sr=32, sw=2, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--6239cb6a-Z--
+
+--a782522a-A--
+[10/Dec/2018:11:18:46 +0700] XA3pJn8AAQEAAAmT8uYAAAAC 192.168.56.1 58492 192.168.56.101 80
+--a782522a-B--
+GET /DVWA/vulnerabilities/view_source.php?id=javascript&security=low HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/javascript/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--a782522a-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2571
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--a782522a-E--
+
+--a782522a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544415526057579 32421 (- - -)
+Stopwatch2: 1544415526057579 32421; combined=7157, p1=1341, p2=5581, p3=50, p4=95, p5=90, sr=219, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--a782522a-Z--
+
+--a782522a-A--
+[10/Dec/2018:11:18:46 +0700] XA3pJn8AAQEAAAmT8ucAAAAC 192.168.56.1 58492 192.168.56.101 80
+--a782522a-B--
+GET /DVWA/dvwa/css/source.css HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://192.168.56.101/DVWA/vulnerabilities/view_source.php?id=javascript&security=low
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--a782522a-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "f0-57bc57601e4bf-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 166
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/css
+
+--a782522a-E--
+
+--a782522a-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544415526115704 17630 (- - -)
+Stopwatch2: 1544415526115704 17630; combined=2585, p1=809, p2=1523, p3=58, p4=99, p5=95, sr=20, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--a782522a-Z--
+
+--93471368-A--
+[10/Dec/2018:11:19:38 +0700] XA3pWn8AAQEAAAmRTVUAAAAA 192.168.56.1 58498 192.168.56.101 80
+--93471368-B--
+GET /DVWA/vulnerabilities/view_help.php?id=javascript&security=low HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/javascript/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--93471368-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1759
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--93471368-E--
+
+--93471368-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Apache-Handler: application/x-httpd-php
+Stopwatch: 1544415578847398 67491 (- - -)
+Stopwatch2: 1544415578847398 67491; combined=3562, p1=398, p2=2441, p3=58, p4=106, p5=558, sr=21, sw=1, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--93471368-Z--
+
+--93471368-A--
+[10/Dec/2018:11:19:38 +0700] XA3pWn8AAQEAAAmRTVYAAAAA 192.168.56.1 58498 192.168.56.101 80
+--93471368-B--
+GET /DVWA/dvwa/css/help.css HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/css,*/*;q=0.1
+Referer: http://192.168.56.101/DVWA/vulnerabilities/view_help.php?id=javascript&security=low
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=low; PHPSESSID=hljd456con2l8remp6bklcfjs2
+
+--93471368-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "130-57bc57601e4bf-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 186
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/css
+
+--93471368-E--
+
+--93471368-H--
+Message: Warning. Pattern match "^[\\d.:]+$" at REQUEST_HEADERS:Host. [file "/usr/share/modsecurity-crs/rules/REQUEST-920-PROTOCOL-ENFORCEMENT.conf"] [line "792"] [id "920350"] [msg "Host header is a numeric IP address"] [data "192.168.56.101"] [severity "WARNING"] [ver "OWASP_CRS/3.1.0"] [tag "application-multi"] [tag "language-multi"] [tag "platform-multi"] [tag "attack-protocol"] [tag "OWASP_CRS/PROTOCOL_VIOLATION/IP_HOST"] [tag "WASCTC/WASC-21"] [tag "OWASP_TOP_10/A7"] [tag "PCI/6.5.10"]
+Stopwatch: 1544415578946529 23585 (- - -)
+Stopwatch2: 1544415578946529 23585; combined=1676, p1=342, p2=1076, p3=68, p4=104, p5=86, sr=11, sw=0, l=0, gc=0
+Response-Body-Transformed: Dechunked
+Producer: ModSecurity for Apache/2.9.0 (http://www.modsecurity.org/); OWASP_CRS/3.1.0.
+Server: Apache/2.4.18 (Ubuntu)
+Engine-Mode: "DETECTION_ONLY"
+
+--93471368-Z--
+-------------------------------------------------------
+--39152564-B--
+GET /DVWA/login.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--39152564-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 699
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--6f805d50-B--
+POST /DVWA/login.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 88
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--6f805d50-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Location: index.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--6f805d50-B--
+GET /DVWA/index.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/login.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--6f805d50-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2687
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--6f805d50-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--6f805d50-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--82ff8e4a-B--
+GET /DVWA/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/index.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--82ff8e4a-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2662
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+------------------------------------------- 5
+--82ff8e4a-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--82ff8e4a-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--48e1fa6e-B--
+GET /DVWA/instructions.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--48e1fa6e-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 5180
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--48e1fa6e-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--48e1fa6e-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--8b133203-B--
+GET /DVWA/instructions.php?doc=readme HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--8b133203-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 5180
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--8b133203-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=readme
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--8b133203-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+-------------------------------------------------- 10
+--aa02b27d-B--
+GET /DVWA/instructions.php?doc=PDF HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=readme
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--aa02b27d-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1142
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--aa02b27d-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=PDF
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--aa02b27d-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--e64b5930-B--
+GET /DVWA/instructions.php?doc=changelog HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=PDF
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--e64b5930-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 3688
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--e64b5930-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=changelog
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--e64b5930-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--bcd0d10e-B--
+GET /DVWA/instructions.php?doc=copying HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=changelog
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--bcd0d10e-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 12771
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+---------------------------------------------15
+--bcd0d10e-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=copying
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--bcd0d10e-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--8e37ec77-B--
+GET /DVWA/instructions.php?doc=PHPIDS-license HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=copying
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--8e37ec77-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 3799
+Keep-Alive: timeout=5, max=96
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--8e37ec77-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=PHPIDS-license
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--8e37ec77-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=95
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--71b14a09-B--
+GET /DVWA/setup.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/instructions.php?doc=PHPIDS-license
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--71b14a09-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2005
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--71b14a09-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/setup.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--71b14a09-F--
+HTTP/1.1 404 Not Found
+Content-Length: 308
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+---------------------------------------------------------20
+--71b14a09-B--
+GET /DVWA/dvwa/images/spanner.png HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: image/webp,image/apng,image/*,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/setup.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--71b14a09-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "1d0-57bc57601e4bf"
+Accept-Ranges: bytes
+Content-Length: 464
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+--4a3d9409-B--
+GET /DVWA/vulnerabilities/brute/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/setup.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--4a3d9409-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1490
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--4a3d9409-B--
+GET /DVWA//dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: */*
+Referer: http://192.168.56.101/DVWA/vulnerabilities/brute/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--4a3d9409-F--
+HTTP/1.1 200 OK
+Last-Modified: Thu, 29 Nov 2018 03:41:42 GMT
+ETag: "251-57bc57601e4bf-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 276
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+--60dd0e36-B--
+POST /DVWA/vulnerabilities/brute/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 75
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/brute/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--60dd0e36-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1606
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--0e3c8428-B--
+GET /DVWA/vulnerabilities/exec/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/brute/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--0e3c8428-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1425
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+------------------------------------------- 25
+--747d9f73-B--
+POST /DVWA/vulnerabilities/exec/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Content-Length: 61
+Cache-Control: max-age=0
+Origin: http://192.168.56.101
+Upgrade-Insecure-Requests: 1
+Content-Type: application/x-www-form-urlencoded
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/exec/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--747d9f73-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1457
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--0d278263-B--
+GET /DVWA/vulnerabilities/csrf/ HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/exec/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--0d278263-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1472
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--f37e1209-B--
+GET /DVWA/vulnerabilities/csrf/?password_current=&password_new=&password_conf=&Change=Change&user_token=5fc1b99f3d7eeba489ed666cc8167ffe HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/csrf/
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--f37e1209-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1508
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--d7c1b206-B--
+GET /DVWA/vulnerabilities/fi/?page=include.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/csrf/?password_current=&password_new=&password_conf=&Change=Change&user_token=5fc1b99f3d7eeba489ed666cc8167ffe
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--d7c1b206-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1270
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--cf953562-B--
+GET /DVWA/vulnerabilities/fi/?page=file1.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=include.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--cf953562-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1302
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+------------------------------------------------ 30
+--e7628357-B--
+GET /DVWA/vulnerabilities/fi/?page=include.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=file1.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--e7628357-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1270
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--056a5510-B--
+GET /DVWA/vulnerabilities/fi/?page=file2.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=include.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--056a5510-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1336
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--bd6fe476-B--
+GET /DVWA/vulnerabilities/fi/?page=include.php HTTP/1.1
+Host: 192.168.56.101
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 6.1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/71.0.3578.80 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8
+Referer: http://192.168.56.101/DVWA/vulnerabilities/fi/?page=file2.php
+Accept-Encoding: gzip, deflate
+Accept-Language: en-US,en;q=0.9
+Cookie: security=impossible; PHPSESSID=mqkm6im1au4m4g7s8q72il5au1
+
+--bd6fe476-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1270
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--69e53126-B--
+GET /dvwa/dvwa/css/main.css HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/css,*/*;q=0.1
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/vulnerabilities/brute/
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+If-Modified-Since: Wed, 19 Jun 2019 12:47:33 GMT
+If-None-Match: "fba-58baca215159f-gzip"
+Cache-Control: max-age=0
+
+--69e53126-F--
+HTTP/1.1 200 OK
+Last-Modified: Wed, 19 Jun 2019 12:47:33 GMT
+ETag: "fba-58baca215159f-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 1109
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/css
+
+
+--69e53126-B--
+GET /dvwa/dvwa/js/dvwaPage.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/vulnerabilities/brute/
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+If-Modified-Since: Wed, 19 Jun 2019 12:47:33 GMT
+If-None-Match: "406-58baca215159f-gzip"
+Cache-Control: max-age=0
+
+--69e53126-F--
+HTTP/1.1 200 OK
+Last-Modified: Wed, 19 Jun 2019 12:47:33 GMT
+ETag: "406-58baca215159f-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 466
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/javascript
+--------------------------------------------- 35
+
+--69e53126-B--
+GET /dvwa//dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/vulnerabilities/brute/
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+If-Modified-Since: Wed, 19 Jun 2019 12:47:33 GMT
+If-None-Match: "251-58baca215159f-gzip"
+Cache-Control: max-age=0
+
+--69e53126-F--
+HTTP/1.1 200 OK
+Last-Modified: Wed, 19 Jun 2019 12:47:33 GMT
+ETag: "251-58baca215159f-gzip"
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 276
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: application/javascript
+
+--69e53126-B--
+GET /dvwa/dvwa/images/logo.png HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/vulnerabilities/brute/
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+If-Modified-Since: Wed, 19 Jun 2019 12:47:33 GMT
+If-None-Match: "13b4-58baca215159f"
+Cache-Control: max-age=0
+
+--69e53126-F--
+HTTP/1.1 304 Not Modified
+Last-Modified: Wed, 19 Jun 2019 12:47:33 GMT
+ETag: "13b4-58baca215159f"
+Accept-Ranges: bytes
+Content-Length: 0
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: image/png
+
+--35ab2519-B--
+GET /dvwa/security.php HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/vulnerabilities/sqli_blind/?id=s&Submit=Submit&user_token=eda10fad70f1ef781c9511d4826b7a59
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+--35ab2519-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2105
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--35ab2519-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+
+--35ab2519-F--
+HTTP/1.1 404 Not Found
+Content-Length: 306
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--35ab2519-B--
+GET /dvwa/dvwa/images/lock.png HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+
+--35ab2519-F--
+HTTP/1.1 200 OK
+Last-Modified: Wed, 19 Jun 2019 12:47:33 GMT
+ETag: "2f9-58baca215159f"
+Accept-Ranges: bytes
+Content-Length: 761
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: image/png
+
+--------------------------------------------- 40
+--35ab2519-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+
+--35ab2519-F--
+HTTP/1.1 404 Not Found
+Content-Length: 306
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--6d415000-B--
+POST /dvwa/security.php HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 80
+Cookie: security=impossible; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+--6d415000-F--
+HTTP/1.1 302 Found
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+Set-Cookie: PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3; path=/
+Set-Cookie: security=medium
+Location: /dvwa/security.php
+Content-Length: 0
+Keep-Alive: timeout=5, max=100
+Connection: Keep-Alive
+Content-Type: text/html; charset=UTF-8
+
+--6d415000-B--
+GET /dvwa/security.php HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=medium; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+Upgrade-Insecure-Requests: 1
+
+--6d415000-F--
+HTTP/1.1 200 OK
+Expires: Tue, 23 Jun 2009 12:00:00 GMT
+Cache-Control: no-cache, must-revalidate
+Pragma: no-cache
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Length: 2123
+Keep-Alive: timeout=5, max=99
+Connection: Keep-Alive
+Content-Type: text/html;charset=utf-8
+
+--6d415000-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=medium; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+
+--6d415000-F--
+HTTP/1.1 404 Not Found
+Content-Length: 306
+Keep-Alive: timeout=5, max=98
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--6d415000-B--
+GET /dvwa/js/add_event_listeners.js HTTP/1.1
+Host: 172.16.3.221
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+Accept: */*
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://172.16.3.221/dvwa/security.php
+Cookie: security=medium; PHPSESSID=qc30mg44fbs9i9hpkm2301kjc3
+Connection: keep-alive
+
+--6d415000-F--
+HTTP/1.1 404 Not Found
+Content-Length: 306
+Keep-Alive: timeout=5, max=97
+Connection: Keep-Alive
+Content-Type: text/html; charset=iso-8859-1
+
+--------------------------------------------- 45
