@@ -21,7 +21,7 @@ then results in how accurately machine learning can distinguish true and false p
 
 Credits to:
 My thesis supervisor: Dr. Aditya Kurniawan, S. Kom., MMSI.
-Antoher Source:
+Another Source:
 1. Google Chrome Browser
 2. Udemy Course(Machine Learning A-Z™: Hands-On Python & R In Data Science, created by Kirill Eremenko, Hadelin de Ponteves, Team Ligency, SuperDataScience Support)
 3. and other sources that I cannot mention one by one ....
